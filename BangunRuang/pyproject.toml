@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bangun-ruang"
+name = "bangunruang"
 version = "0.1.0"
 description = ""
 authors = ["my name <me@example.com>"]

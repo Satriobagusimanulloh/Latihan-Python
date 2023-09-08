@@ -1,0 +1,36 @@
+from bangunruang.subclass.balok import Balok
+from bangunruang.subclass.kubus import Kubus
+from bangunruang.subclass.bola import Bola
+
+balok1 = Balok(8, 6, 5)
+print(f"Panjang balok\t\t : {balok1.getPanjang()}")
+print(f"Lebar balok\t\t : {balok1.getLebar()}")
+print(f"Tinggi balok\t\t : {balok1.getTinggi()}")
+print(f"Volume balok\t\t : {balok1.hitungVolume()}")
+print(f"Luas permukaan balok\t : {balok1.hitungLuasPermukaan()}")
+balok1.setPanjang(15)
+balok1.setLebar(10)
+balok1.setTinggi(5)
+print(f"Panjang balok\t\t : {balok1.getPanjang()}")
+print(f"Lebar balok\t\t : {balok1.getLebar()}")
+print(f"Tinggi balok\t\t : {balok1.getTinggi()}")
+print(f"Volume balok\t\t : {balok1.hitungVolume()}")
+print(f"Luas permukaan balok\t : {balok1.hitungLuasPermukaan()}")
+
+kubus1 = Kubus(10)
+print(f"Sisi kubus\t\t : {kubus1.getSisi()}")
+print(f"Volume kubus\t\t : {kubus1.hitungVolume()}")
+print(f"Luas permukaan kubus\t : {kubus1.hitungLuasPermukaan()}")
+kubus1.setSisi(20)
+print(f"Sisi kubus\t\t : {kubus1.getSisi()}")
+print(f"Volume kubus\t\t : {kubus1.hitungVolume()}")
+print(f"Luas permukaan kubus\t : {kubus1.hitungLuasPermukaan()}")
+
+bola1 = Bola(10)
+print(f"Jari-jari bola\t\t : {bola1.getJari()}")
+print(f"Volume bola\t\t : {bola1.hitungVolume()}")
+print(f"Luas permukaan bola\t : {bola1.hitungLuasPermukaan()}")
+bola1.setJari(20)
+print(f"Jari-jari bola\t\t : {bola1.getJari()}")
+print(f"Volume bola\t\t : {bola1.hitungVolume()}")
+print(f"Luas permukaan bola\t : {bola1.hitungLuasPermukaan()}")
